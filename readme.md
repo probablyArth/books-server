@@ -46,7 +46,7 @@ go get -u github.com/gin-gonic/gin
 ```bash
 go run main.go
 ```
-By default, the server will be running on http://localhost:8080.
+By default, the server will be running on http://localhost:8000.
 
 ### Author
 [probablyarth](https://github.com/probablyarth)
