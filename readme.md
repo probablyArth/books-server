@@ -2,6 +2,17 @@
 
 Booky is a simple backend service built with Go, Gorm, and SQLite, providing an API for sharing and borrowing books.
 
+## Project Structure
+```
+.
+├── controllers/
+│   └── book_controller.go
+├── types/
+│   ├── book.go
+│   └── borrow.go
+└── main.go
+```
+
 ## API Endpoints
 
 - Add a Book for Sharing
