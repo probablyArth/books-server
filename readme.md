@@ -8,7 +8,6 @@ Booky is a simple backend service built with Go, Gorm, and SQLite, providing an 
     ```http
     POST /api/v1/booky/
 
-    Request Body:
     {
         "name": "The Book Title"
     }
@@ -26,7 +25,6 @@ Booky is a simple backend service built with Go, Gorm, and SQLite, providing an 
     ```http
     POST /api/v1/booky/{book_id}/borrow
 
-    Request Body:
     {
         "borrow_start_time": "2023-01-01T10:00:00Z",
         "borrow_end_time": "2023-01-10T18:00:00Z"
