@@ -43,7 +43,9 @@ Booky is a simple backend service built with Go, Gorm, and SQLite, providing an 
     ```
 - Return a Borrowed Book
     ```http
-    PUT /api/v1/booky/{book_id}/borrow/{borrow_id}```
+    PUT /api/v1/booky/{book_id}/borrow/{borrow_id}
+    ```
+
 ## Setup
 ### Install Go dependencies:
 
